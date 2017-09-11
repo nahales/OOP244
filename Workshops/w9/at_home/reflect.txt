@@ -1,0 +1,5 @@
+1. My class is not coded to allocate exactly L+1, rather it's coded to allocate at least L+1 or capacity, whichever is greater. Therefore, yes, it can still work if i decided to give the strings more capacity than they need.
+
+2. I think using the standard string libraries is not only easier but also more reliable and trusted. However they might not be this much customizable based on our needs.
+
+3. No, we don't have to set objects in safe empty state or clean up after them in the main function, because we have already defined a destructor for sict::String class which deletes the allocated memory automatically after the object go out of the scope. This String class could make the previous labs much easier as there is no need to check characters one by one in the char arrays.

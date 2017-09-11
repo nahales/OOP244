@@ -1,0 +1,5 @@
+1. An abstract class is a base class that contains one or more member functions that are not implemented in the base class, in other words, it contains one or more pure virtual functions as member functions. A derived class that implements the definition of the base class's pure virtual functions is a concrete class.
+
+2. Pure virtual functions are to use when there's no sensible way to implement the function in the base class. Hence, we just declare a pure virtual function in the base class (Abstract class) as a interface for client code, and then we implement the function in the derived class (concrete class).
+
+3. In this workshop, I learned how to make an abstract class (Account Class) with decleration of a pure virtual function (display) in its header file, and we implemented this function definitions in 2 derived classes (SavingsAccount & CheckingAccount) differently based on each class's needs.

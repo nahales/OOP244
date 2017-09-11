@@ -1,0 +1,5 @@
+1. We define m_health as a signed integer, because it shouldn't be a negative number. So, by making it a signed integer it would get to zero at the lowest point.
+
+2. No, Hero as a base class doesn't need to know about its derived class Superhero. However, the reverse is different. Superhero as a derived class needs to know about its parent class Hero from which it inherits.
+
+3. It will print "Ancient Battle" as the display function of the parent class would be used.
